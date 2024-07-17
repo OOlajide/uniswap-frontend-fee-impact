@@ -62,67 +62,67 @@ st.info('Some sections have multiple tabs, click on a different tab to see its c
 url1 = "https://flipsidecrypto.xyz/edit/queries/5ef84c36-29a4-4993-a322-7c22d7248272"
 @st.cache_data
 def load_df1():
-    df1 = pd.read_csv('datasets/df1.csv')
+    df1 = pd.read_csv('data/df1.csv')
     return df1
 
 url2 = "https://flipsidecrypto.xyz/edit/queries/4ec52f72-2f3e-4c4d-ab4c-4438065d68fc"
 @st.cache_data
 def load_df2():
-    df2 = pd.read_csv('datasets/df2.csv')
+    df2 = pd.read_csv('data/df2.csv')
     return df2
 
 url3 = "https://flipsidecrypto.xyz/edit/queries/b71bb0ac-16a4-4595-bb34-80bd4699855a"
 @st.cache_data
 def load_df3():
-    df3 = pd.read_csv('datasets/df3.csv')
+    df3 = pd.read_csv('data/df3.csv')
     return df3
 
 url4 = "https://flipsidecrypto.xyz/edit/queries/73f03b19-9e76-41e9-9095-61abf5dfc55f"
 @st.cache_data
 def load_df4():
-    df4 = pd.read_csv('datasets/df4.csv')
+    df4 = pd.read_csv('data/df4.csv')
     return df4
 
 url5 = "https://flipsidecrypto.xyz/edit/queries/e39631a2-2ba1-4add-bf8d-b7f9d74fa538"
 @st.cache_data
 def load_df5():
-    df5 = pd.read_csv('datasets/df5.csv')
+    df5 = pd.read_csv('data/df5.csv')
     return df5
 
 url6 = "https://flipsidecrypto.xyz/edit/queries/3e0f08b7-f532-41aa-9f85-616264f5172a"
 @st.cache_data
 def load_df6():
-    df6 = pd.read_csv('datasets/df6.csv')
+    df6 = pd.read_csv('data/df6.csv')
     return df6
 
 url7 = "https://flipsidecrypto.xyz/edit/queries/2e70e580-47a4-452e-9086-e6e60b39ffa2"
 @st.cache_data
 def load_df7():
-    df7 = pd.read_csv('datasets/df7.csv')
+    df7 = pd.read_csv('data/df7.csv')
     return df7
 
 url8 = "https://flipsidecrypto.xyz/edit/queries/2a8af4da-70da-4079-b8d4-96ad90e017cb"
 @st.cache_data
 def load_df8():
-    df8 = pd.read_csv('datasets/df8.csv')
+    df8 = pd.read_csv('data/df8.csv')
     return df8
 
 url9 = "https://flipsidecrypto.xyz/edit/queries/397fbf4c-9cae-4031-8481-4eb8ba0f984e"
 @st.cache_data
 def load_df9():
-    df9 = pd.read_csv('datasets/df9.csv')
+    df9 = pd.read_csv('data/df9.csv')
     return df9
 
 url10 = "https://flipsidecrypto.xyz/edit/queries/a1bce87c-9ecc-4b46-a289-bccdec9d4791"
 @st.cache_data
 def load_df10():
-    df10 = pd.read_csv('datasets/df10.csv')
+    df10 = pd.read_csv('data/df10.csv')
     return df10
 
 url11 = "https://flipsidecrypto.xyz/edit/queries/34ce1816-880e-4f05-85a4-3869152435fb"
 @st.cache_data
 def load_df11():
-    df11 = pd.read_csv('datasets/df11.csv')
+    df11 = pd.read_csv('data/df11.csv')
     return df11
     
 ###################################
