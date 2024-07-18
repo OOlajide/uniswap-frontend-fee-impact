@@ -163,13 +163,13 @@ with col_4b:
 
 insight_1a = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Comparing the reactions of retail users and whales to the frontend fee introduction reveals intriguing patterns in user behavior. Contrary to expectations, the initial fee implementation did not lead to a decline in activity. Instead, we observed an upward trend in user engagement across both user segments. This could be attributed to:</p>'
 
-insight_1b = '<ul style="font-family:sans-serif; color:#4d372c; font-size: 18px;"><ul><li>Market momentum: Broader crypto market trends may have overshadowed the impact of the small initial fee.</li><li>Perceived value: Users might have viewed the fee as a reasonable cost for accessing Uniswap's liquidity and features.</li><li>Inelastic demand: For many users, Uniswap may be an essential platform, making them less sensitive to small fee changes.</li></ul>'
+insight_1b = '<ul style="font-family:sans-serif; color:#4d372c; font-size: 18px;"><ul><li>Market momentum: Broader crypto market trends may have overshadowed the impact of the small initial fee.</li><li>Perceived value: Users might have viewed the fee as a reasonable cost for accessing Uniswap\'s liquidity and features.</li><li>Inelastic demand: For many users, Uniswap may be an essential platform, making them less sensitive to small fee changes.</li></ul>'
 
 insight_1c = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">However, the increase of the fee to 0.25% triggered a more pronounced reaction. Shortly after this hike, we observed declines in daily active users, number of swaps, and overall volume. This suggests a threshold effect, where the higher fee began to impact user decisions more significantly.</p>'
 
 insight_1d = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Interestingly, the transaction per user ratio (transaction count/user count) remained relatively stable despite these changes. This stability could be explained by several factors:</p>'
 
-insight_1e = '<ul style="font-family:sans-serif; color:#4d372c; font-size: 18px;"><ul><li>Core user base: The users who remained active after the fee increase may be the platform's most committed and frequent users, maintaining their typical trading patterns.</li><li>Market opportunities: If market volatility or opportunities remained constant, users might have maintained their trading frequency to capitalize on these conditions, despite the higher fees.</li></ul>'
+insight_1e = '<ul style="font-family:sans-serif; color:#4d372c; font-size: 18px;"><ul><li>Core user base: The users who remained active after the fee increase may be the platform\'s most committed and frequent users, maintaining their typical trading patterns.</li><li>Market opportunities: If market volatility or opportunities remained constant, users might have maintained their trading frequency to capitalize on these conditions, despite the fee.</li></ul>'
 
 colored_header(
     label="",
