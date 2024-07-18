@@ -145,21 +145,6 @@ with col_2b:
     st.plotly_chart(df9_fig4, theme="streamlit", use_container_width=True)
     st.link_button("View SQL", f"{url9}")
 
-insight_1 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Arbitrum and Polygon emerge as prominent L2s on Uniswap, each commanding a substantial 30% share of unique users. However, a deeper analysis reveals Arbitrum\'s dominance, boasting a remarkable 57% share of the total swap volume across all six L2s. This stands 90% higher than Polygon\'s respectable 30% share. The significance lies in the fact that while both platforms attract an equal number of users, Arbitrum users are notably more active, collectively engaging in higher-value swaps compared to their Polygon counterparts.</p>'
-
-colored_header(
-    label="",
-    description="",
-    color_name="gray-70",
-)
-st.markdown(insight_1, unsafe_allow_html=True)
-colored_header(
-    label="",
-    description="",
-    color_name="gray-70",
-)
-
-
 col_3a, col_3b = st.columns(2)
 with col_3a:
     st.plotly_chart(df9_fig5, theme="streamlit", use_container_width=True)
@@ -176,14 +161,26 @@ with col_4b:
     st.plotly_chart(df9_fig8, theme="streamlit", use_container_width=True)
     st.link_button("View SQL", f"{url9}")
 
-insight_2 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Arbitrum and Polygon emerge as prominent L2s on Uniswap, each commanding a substantial 30% share of unique users. However, a deeper analysis reveals Arbitrum\'s dominance, boasting a remarkable 57% share of the total swap volume across all six L2s. This stands 90% higher than Polygon\'s respectable 30% share. The significance lies in the fact that while both platforms attract an equal number of users, Arbitrum users are notably more active, collectively engaging in higher-value swaps compared to their Polygon counterparts.</p>'
+insight_1a = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Comparing the reactions of retail users and whales to the frontend fee introduction reveals intriguing patterns in user behavior. Contrary to expectations, the initial fee implementation did not lead to a decline in activity. Instead, we observed an upward trend in user engagement across both user segments. This could be attributed to:</p>'
+
+insight_1b = '<ul style="font-family:sans-serif; color:#4d372c; font-size: 18px;"><ul><li>Market momentum: Broader crypto market trends may have overshadowed the impact of the small initial fee.</li><li>Perceived value: Users might have viewed the fee as a reasonable cost for accessing Uniswap's liquidity and features.</li><li>Inelastic demand: For many users, Uniswap may be an essential platform, making them less sensitive to small fee changes.</li></ul>'
+
+insight_1c = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">However, the increase of the fee to 0.25% triggered a more pronounced reaction. Shortly after this hike, we observed declines in daily active users, number of swaps, and overall volume. This suggests a threshold effect, where the higher fee began to impact user decisions more significantly.</p>'
+
+insight_1d = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Interestingly, the transaction per user ratio (transaction count/user count) remained relatively stable despite these changes. This stability could be explained by several factors:</p>'
+
+insight_1e = '<ul style="font-family:sans-serif; color:#4d372c; font-size: 18px;"><ul><li>Core user base: The users who remained active after the fee increase may be the platform's most committed and frequent users, maintaining their typical trading patterns.</li><li>Market opportunities: If market volatility or opportunities remained constant, users might have maintained their trading frequency to capitalize on these conditions, despite the higher fees.</li></ul>'
 
 colored_header(
     label="",
     description="",
     color_name="gray-70",
 )
-st.markdown(insight_2, unsafe_allow_html=True)
+st.markdown(insight_1a, unsafe_allow_html=True)
+st.markdown(insight_1b, unsafe_allow_html=True)
+st.markdown(insight_1c, unsafe_allow_html=True)
+st.markdown(insight_1d, unsafe_allow_html=True)
+st.markdown(insight_1e, unsafe_allow_html=True)
 colored_header(
     label="",
     description="",
