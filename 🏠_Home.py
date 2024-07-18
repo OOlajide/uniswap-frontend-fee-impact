@@ -276,7 +276,7 @@ insight_2b = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;"
 
 insight_2c = '<ul style="font-family:sans-serif; color:#4d372c; font-size: 18px;"><ul><li>The memecoin craze on the Base network</li><li>The implementation of the Dencun upgrade, which reduced fees for Layer 2 users</li></ul>'
 
-insight_2d = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">These factors appear to have mitigated the potential negative impact of the fee increase on Uniswap's user base. Contrary to expectations, Uniswap\'s daily share of active DEX users surged, reaching a peak of 66% on July 3, 2024.</p>'
+insight_2d = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">These factors appear to have mitigated the potential negative impact of the fee increase on Uniswap\'s user base. Contrary to expectations, Uniswap\'s daily share of active DEX users surged, reaching a peak of 66% on July 3, 2024.</p>'
 
 insight_2e = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">This suggests that the memecoin trend on Base may have driven increased activity on Uniswap, potentially due to its strong presence on Layer 2 networks. The Dencun upgrade\'s fee reduction for L2 users might have offset the impact of Uniswap\'s fee increase, making it more attractive for users despite the frontend fee.</p>'
 
