@@ -144,21 +144,6 @@ with col_2b:
     st.plotly_chart(df2_fig4, theme="streamlit", use_container_width=True)
     st.link_button("View SQL", f"{url2}")
 
-insight_1 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Arbitrum and Polygon emerge as prominent L2s on Uniswap, each commanding a substantial 30% share of unique users. However, a deeper analysis reveals Arbitrum\'s dominance, boasting a remarkable 57% share of the total swap volume across all six L2s. This stands 90% higher than Polygon\'s respectable 30% share. The significance lies in the fact that while both platforms attract an equal number of users, Arbitrum users are notably more active, collectively engaging in higher-value swaps compared to their Polygon counterparts.</p>'
-
-colored_header(
-    label="",
-    description="",
-    color_name="gray-70",
-)
-st.markdown(insight_1, unsafe_allow_html=True)
-colored_header(
-    label="",
-    description="",
-    color_name="gray-70",
-)
-
-
 col_3a, col_3b = st.columns(2)
 with col_3a:
     st.plotly_chart(df2_fig5, theme="streamlit", use_container_width=True)
@@ -175,14 +160,22 @@ with col_4b:
     st.plotly_chart(df2_fig8, theme="streamlit", use_container_width=True)
     st.link_button("View SQL", f"{url2}")
 
-insight_2 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Arbitrum and Polygon emerge as prominent L2s on Uniswap, each commanding a substantial 30% share of unique users. However, a deeper analysis reveals Arbitrum\'s dominance, boasting a remarkable 57% share of the total swap volume across all six L2s. This stands 90% higher than Polygon\'s respectable 30% share. The significance lies in the fact that while both platforms attract an equal number of users, Arbitrum users are notably more active, collectively engaging in higher-value swaps compared to their Polygon counterparts.</p>'
+
+insight_1a = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">The introduction of the frontend fee initially saw an uptrend in daily volume for both Uniswap V2 and V3. However, the fee hike to 0.25% triggered a decline in volume across both versions. This initial reaction aligns with expected user behavior when faced with increased costs.</p>'
+
+insight_1b = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Interestingly, the number of swaps on V2 and V3 exhibited divergent patterns following the fee increase. While V2 and V3 saw an initial downward trend in swap numbers, unlike V3, V2 quickly rebounded, surpassing previous levels. This resilience of V2 suggests V2\'s simplicity may have made it easier for new projects and tokens to list especially during the Base chain surge, potentially driving increased activity.</p>'
+
+insight_1c = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">The disparity in active pools between v2 and v3 (with v2 having about 50% more active pools on most days since the fee hike to 0.25%) further underscores these trends.</p>'
+
 
 colored_header(
     label="",
     description="",
     color_name="gray-70",
 )
-st.markdown(insight_2, unsafe_allow_html=True)
+st.markdown(insight_1a, unsafe_allow_html=True)
+st.markdown(insight_1b, unsafe_allow_html=True)
+st.markdown(insight_1c, unsafe_allow_html=True)
 colored_header(
     label="",
     description="",
