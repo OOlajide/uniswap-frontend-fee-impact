@@ -44,6 +44,7 @@ div[data-testid="metric-container"] > label[data-testid="stMetricLabel"] > div {
 
 st.markdown(f'<h1 style="color:#434346;font-size:60px;text-align:center;">{"The Retailer & The Whale"}</h1>', unsafe_allow_html=True)
 st.info("This page juxtaposes the reaction of Retail users and Whales to the introduction and subsequent hike in Uniswap frontend fee.", icon="ℹ️")
+st.info("Retail users are users with less than 100K USD average swap volume || Whales are users with 100K USD or more swap volume", icon="ℹ️")
 
 url9 = "https://flipsidecrypto.xyz/edit/queries/397fbf4c-9cae-4031-8481-4eb8ba0f984e"
 @st.cache_data
