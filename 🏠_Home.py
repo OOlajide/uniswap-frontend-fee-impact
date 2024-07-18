@@ -46,7 +46,7 @@ text_1 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 20px;">DeF
 
 text_2 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 20px;">In October 2023, Uniswap Labs introduced a significant change to its fee structure, implementing a 0.15% fee for users of its frontend interface. This fee was further increased to 0.25% in April 2024. This analysis aims to explore the ramifications of these fee changes on Uniswap\'s ecosystem. We will investigate how the introduction and subsequent increase of fees have affected Uniswap\'s overall trading volume, user base, and swap activity. Furthermore, we\'ll examine whether these changes have led to shifts in user preferences, potentially driving them towards alternative platforms.</p>'
 
-text_3 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 20px;">The data used for this dashboard is <a href="https://flipsidecrypto.xyz/">Flipside Crypto’s</a>. You can click on the <b>View SQL</b> button under each chart to view the underlying SQL query.</p>'
+text_3 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 20px;">We analyzed data from these 7 chains: Arbitrum, Avalanche, Base, BSC, Ethereum, Optimism, Polygon, provided by <a href="https://flipsidecrypto.xyz/">Flipside Crypto</a>. You can click on the <b>View SQL</b> button under each chart to view the underlying SQL query.</p>'
 
 st.markdown(f'<h1 style="color:#434346;font-size:60px;text-align:center;">{"Uniswap Frontend Fee Impact"}</h1>', unsafe_allow_html=True)
 
@@ -244,14 +244,17 @@ with col_3b:
     st.plotly_chart(df10_fig1, theme="streamlit", use_container_width=True)
     st.link_button("View SQL", f"{url10}")
 
-insight_1 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Arbitrum and Polygon emerge as prominent L2s on Uniswap, each commanding a substantial 30% share of unique users. However, a deeper analysis reveals Arbitrum\'s dominance, boasting a remarkable 57% share of the total swap volume across all six L2s. This stands 90% higher than Polygon\'s respectable 30% share. The significance lies in the fact that while both platforms attract an equal number of users, Arbitrum users are notably more active, collectively engaging in higher-value swaps compared to their Polygon counterparts.</p>'
+insight_1a = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">The introduction of a 0.15% fee had minimal impact on user behavior and Uniswap usage. However, when the fee was increased to 0.25%, we observed a significant decline in volume, active users, and other metrics. This suggests a critical threshold was crossed, triggering changes in user behavior.</p>'
+
+insight_1b = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Several factors may have contributed to this decline. Users might have perceived the 0.25% fee as crossing a psychological barrier, making transactions less appealing due to increased price sensitivity. The higher fee could have also put the platform at a competitive disadvantage, making it less attractive compared to competitors offering lower fees. Additionally, for high-volume traders and arbitrageurs, the increased fee may have significantly eroded profit margins, prompting them to reduce their activity on the platform or seek alternative trading venues. These combined effects likely led to the observed decrease in volume, active users, and other key metrics.</p>'
 
 colored_header(
     label="",
     description="",
     color_name="gray-70",
 )
-st.markdown(insight_1, unsafe_allow_html=True)
+st.markdown(insight_1a, unsafe_allow_html=True)
+st.markdown(insight_1b, unsafe_allow_html=True)
 colored_header(
     label="",
     description="",
@@ -267,14 +270,26 @@ st.link_button("View SQL", f"{url7}")
 st.plotly_chart(df8_fig1, theme="streamlit", use_container_width=True)
 st.link_button("View SQL", f"{url8}")
 
-insight_2 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Arbitrum and Polygon emerge as prominent L2s on Uniswap, each commanding a substantial 30% share of unique users. However, a deeper analysis reveals Arbitrum\'s dominance, boasting a remarkable 57% share of the total swap volume across all six L2s. This stands 90% higher than Polygon\'s respectable 30% share. The significance lies in the fact that while both platforms attract an equal number of users, Arbitrum users are notably more active, collectively engaging in higher-value swaps compared to their Polygon counterparts.</p>'
+insight_2a = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Since the introduction of the initial fee, Uniswap\'s market share by volume decreased significantly from 50% to 30% by mid-March 2024. Concurrently, PancakeSwap emerged as one of the primary beneficiaries, increasing its market share from 13% to 27% during the same period. This shift suggests that PancakeSwap may have capitalized on Uniswap\'s fee introduction, potentially by maintaining lower fees or offering other incentives to attract users.</p>'
+
+insight_2b = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Interestingly, Uniswap\'s market share of daily active DEX users remained relatively stable, averaging around 20% since the introduction of the first fee. However, a notable phenomenon occurred when the fee was hiked to 0.25%. This increase coincided with several significant events in the crypto ecosystem:</p>'
+
+insight_2c = '<ul style="font-family:sans-serif; color:#4d372c; font-size: 18px;"><ul><li>The memecoin craze on the Base network</li><li>The implementation of the Dencun upgrade, which reduced fees for Layer 2 users</li></ul>'
+
+insight_2d = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">These factors appear to have mitigated the potential negative impact of the fee increase on Uniswap's user base. Contrary to expectations, Uniswap\'s daily share of active DEX users surged, reaching a peak of 66% on July 3, 2024.</p>'
+
+insight_2e = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">This suggests that the memecoin trend on Base may have driven increased activity on Uniswap, potentially due to its strong presence on Layer 2 networks. The Dencun upgrade\'s fee reduction for L2 users might have offset the impact of Uniswap\'s fee increase, making it more attractive for users despite the frontend fee.</p>'
 
 colored_header(
     label="",
     description="",
     color_name="gray-70",
 )
-st.markdown(insight_2, unsafe_allow_html=True)
+st.markdown(insight_2a, unsafe_allow_html=True)
+st.markdown(insight_2b, unsafe_allow_html=True)
+st.markdown(insight_2c, unsafe_allow_html=True)
+st.markdown(insight_2d, unsafe_allow_html=True)
+st.markdown(insight_2e, unsafe_allow_html=True)
 colored_header(
     label="",
     description="",
