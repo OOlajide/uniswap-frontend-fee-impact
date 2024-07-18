@@ -43,14 +43,12 @@ div[data-testid="metric-container"] > label[data-testid="stMetricLabel"] > div {
 st.markdown(f'<h1 style="color:#434346;font-size:60px;text-align:center;">{"Conclusion"}</h1>', unsafe_allow_html=True)
 st.info("This page encapsulates the essential takeaways from our analysis.", icon="ℹ️")
 
+insight_1a = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">The introduction and subsequent increase of Uniswap\'s frontend fee had multifaceted effects on user behavior, market share, and overall platform activity. While the initial 0.15% fee had minimal impact, the increase to 0.25% triggered significant short-term changes. However, these effects were moderated by concurrent market events and the Dencun upgrade.</p>'
 
-insight_1 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">As we conclude our examination of Uniswap\'s presence on L2s, certain patterns come into focus. Arbitrum emerges as a dominant force, commanding a significant share of both users and total swap volume, underscoring its appeal for active and high-value trading. Polygon\'s gas fee efficiency and expansive token listings position it as a noteworthy contender, showcasing the importance of cost considerations in user preferences.</p>'
-st.markdown(insight_1, unsafe_allow_html=True)
+insight_1b = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Key Takeaways:</p>'
 
+insight_1c = '<ul style="font-family:sans-serif; color:#4d372c; font-size: 20px;"><ol><li>Fee Sensitivity Threshold: Users showed little reaction to the 0.15% fee but responded noticeably to the 0.25% fee, indicating a psychological or economic threshold.</li><li>User Activity Resilience: Despite fee increases, Uniswap maintained a stable share of daily active DEX users, even experiencing significant growth during specific periods.</li><li>External Factors\' Influence: The surge in activity on Base and the Dencun upgrade for L2 chains offset potential negative impacts of the fee increase, highlighting the importance of broader market trends.</li><li>Protocol Version Divergence: Uniswap V2 showed more resilience than V3 in terms of swap numbers and active pools, potentially due to its simplicity.</li><li>User Behavior Consistency: The stable transaction-per-user ratio suggests that core users maintained their trading patterns despite fee changes.</li><li>Short-term vs. Long-term Effects: While the fee increase caused immediate declines in various metrics, many effects were short-lived, indicating user adaptation over time.</li></ol>'
 
-insight_2 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">The influence of airdrop events on user engagement, as exemplified by Optimism\'s case, highlights the potential impact of strategic initiatives on Uniswap\'s adoption. The consistent preference for WETH and USDC in token swaps, reflects the enduring dominance of certain tokens within the Uniswap ecosystem.</p>'
-st.markdown(insight_2, unsafe_allow_html=True)
-
-
-insight_3 = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">As Uniswap continues to evolve and adapt to different L2s, understanding these nuanced patterns and user behaviors becomes crucial. Strategies to enhance retention on chains with lower engagement, such as Avalanche and BSC, could further strengthen Uniswap\'s position in the broader DEX landscape.</p>'
-st.markdown(insight_3, unsafe_allow_html=True)
+st.markdown(insight_1a, unsafe_allow_html=True)
+st.markdown(insight_1b, unsafe_allow_html=True)
+st.markdown(insight_1c, unsafe_allow_html=True)
