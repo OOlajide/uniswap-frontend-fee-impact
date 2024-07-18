@@ -244,7 +244,7 @@ with col_3b:
     st.plotly_chart(df10_fig1, theme="streamlit", use_container_width=True)
     st.link_button("View SQL", f"{url10}")
 
-insight_1a = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">The introduction of a 0.15% fee had minimal impact on user behavior and Uniswap usage. However, when the fee was increased to 0.25%, we observed a significant short lived decline in volume, active users, and other metrics. This suggests a critical threshold was crossed, triggering short-term changes in user behavior.</p>'
+insight_1a = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">The introduction of a 0.15% fee had minimal impact on user behavior and Uniswap usage. However, when the fee was increased to 0.25%, we observed a significant short-lived decline in volume, active users, and other metrics. This suggests a critical threshold was crossed, triggering short-term changes in user behavior.</p>'
 
 insight_1b = '<p style="font-family:sans-serif; color:#4d372c; font-size: 18px;">Several factors may have contributed to this decline. Users might have perceived the 0.25% fee as crossing a psychological barrier, making transactions less appealing due to increased price sensitivity. The higher fee could have also put the platform at a competitive disadvantage, making it less attractive compared to competitors offering lower fees. Additionally, for high-volume traders and arbitrageurs, the increased fee may have significantly eroded profit margins, prompting them to reduce their activity on the platform or seek alternative trading venues. These combined effects likely led to the observed decrease in volume, active users, and other key metrics.</p>'
 
